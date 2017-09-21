@@ -1,0 +1,50 @@
+
+Nikhil_Home@NikhilKanojia MINGW64 /g/Semester 3/Mobile Innovation/Github
+$ git clone https://github.com/codenik1591/courses.git
+Cloning into 'courses'...
+remote: Counting objects: 837, done.
+remote: Compressing objects: 100% (35/35), done.
+remote: Total 837 (delta 11), reused 43 (delta 10), pack-reused 792
+Receiving objects: 100% (837/837), 128.48 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (240/240), done.
+
+Nikhil_Home@NikhilKanojia MINGW64 /g/Semester 3/Mobile Innovation/Github
+$ git add .
+fatal: Not a git repository (or any of the parent directories): .git
+
+Nikhil_Home@NikhilKanojia MINGW64 /g/Semester 3/Mobile Innovation/Github
+$ cd courses
+
+Nikhil_Home@NikhilKanojia MINGW64 /g/Semester 3/Mobile Innovation/Github/courses                                                                                                                 (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Nikhil_Home@NikhilKanojia MINGW64 /g/Semester 3/Mobile Innovation/Github/courses                                                                                                                 (master)
+$ git add .
+
+Nikhil_Home@NikhilKanojia MINGW64 /g/Semester 3/Mobile Innovation/Github/courses                                                                                                                 (master)
+$ git commit -m "Added name Nikhil Kanojia to the README.md file"
+[master 8551519] Added name Nikhil Kanojia to the README.md file
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Nikhil_Home@NikhilKanojia MINGW64 /g/Semester 3/Mobile Innovation/Github/courses                                                                                                                 (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 410 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/codenik1591/courses.git
+   204393d..8551519  master -> master
+
+Nikhil_Home@NikhilKanojia MINGW64 /g/Semester 3/Mobile Innovation/Github/courses                                                                                                                 (master)
+$
